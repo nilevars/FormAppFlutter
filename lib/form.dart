@@ -82,7 +82,6 @@ class _UserFormState extends State<UserForm> {
     print("submit clicked");
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
-      width: MediaQuery.of(context).size.width,
       child: RaisedButton(
         color: Colors.blueGrey,
         textColor: Colors.white,
